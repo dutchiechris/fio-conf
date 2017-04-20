@@ -20,10 +20,10 @@
 1. On NetApp create dummy files like
     ```
     > set  -priv diag
-    > node run -node okATOS01-01 mkfile 100g /vol/okATOSvol01/100g
-    > node run -node okATOS01-01 mkfile 100g /vol/okATOSvol02/100g
-    > node run -node okATOS01-01 mkfile 100g /vol/okATOSvol03/100g
-    > node run -node okATOS01-01 mkfile 100g /vol/okATOSvol04/100g
+    > node run -node okATOS01-01 mkfile 100g /vol/okATOSvol01/file
+    > node run -node okATOS01-01 mkfile 100g /vol/okATOSvol02/file
+    > node run -node okATOS01-01 mkfile 100g /vol/okATOSvol03/file
+    > node run -node okATOS01-01 mkfile 100g /vol/okATOSvol04/file
     ```
 1. Run workload profiles like:
     ```
